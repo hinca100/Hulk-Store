@@ -161,7 +161,7 @@ export default function Cart(props) {
         <div className="cart-content__product-info">
           <div>
             <h3>{product.name.substr(0, 25)}...</h3>
-            <p>{product.price.toFixed(2)} € / ud.</p>
+            <p>{product.price.toFixed(2)} $ / Un.</p>
           </div>
           <div>
             <p>En carri: {quantity} ud.</p>
@@ -182,7 +182,7 @@ export default function Cart(props) {
       <div className="cart-content__footer">
         <div>
           <p>Total aproximado: </p>
-          <p>{cartTotalPrice.toFixed(2)} €</p>
+          <p>{cartTotalPrice.toFixed(2)} $</p>
         </div>
         <Button>Tramitar pedido</Button>
       </div>
